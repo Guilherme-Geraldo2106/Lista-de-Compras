@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/imagens/mercado.png" type="image/x-icon">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <section id="main">
+        <h1>Lista de Compras</h1>
+        <div id="select">
+            <p><input type="text" name="" placeholder="Digite o nome do Produto" id="produtotx"><input type="button" value="Adicionar" onclick="acadd()"></p>
+            <select  id="remsel">
+                <option value="laticinios">Laticinios</option>
+                <option value="frutas">Frutas e Verduras</option>
+                <option value="higiene">Produtos de Higiene</option>
+                <option value="limpeza">Produtos de Limpeza</option>
+                <option value="mantimentos">Mantimentos Basicos</option>
+                <option value="proteinas">Proteinas</option>
+            </select>
+            </p><input type="button" value="Remover" onclick="acrem()">
+        </div>
+        <div class="lista" >
+            <h3>Laticinios</h3>
+            <ul id="lat" class="ule"> 
+                
+            </ul>
+        </div>
+        <div class="lista">
+            <h3>Frutas e Verduras</h3>
+            <ul id="fru">
+                
+            </ul>
+        </div>
+        <div class="lista">
+            <h3> Produtos de Higiene</h3>
+            <ul id="hig" class="ule">
+                
+            </ul>
+        </div>
+        <div class="lista">
+            <h3>Produtos de Limpeza</h3>
+            <ul id="lim" class="ule">
+                
+            </ul>
+        </div>
+        <div class="lista">
+            <h3>Mantimentos Basicos</h3>
+            <ul id="man" class="ule">
+                
+            </ul>
+        </div>
+        <div class="lista">
+            <h3>Proteinas</h3>
+            <ul id="pro" class="ule">
+                
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
